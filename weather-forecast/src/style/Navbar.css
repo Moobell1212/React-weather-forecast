@@ -1,9 +1,10 @@
-#title {
-    text-align: center;
-    align-content: center;
-}
-
 #navbar {
     background-color: aqua;
-    height:100px;
-}
+    text-align: center;
+    height: 130px; 
+};
+
+#title {
+    display: flex;
+    align-content: center;
+};
