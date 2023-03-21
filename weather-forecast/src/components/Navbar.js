@@ -6,7 +6,7 @@ export default function NavigationBar() {
     return (
         <div id="navbar">
             <Container >
-                <div id="title">
+                <div id="title" style={{alignContent: 'center'}}>
                     <h1>Weather forecast app</h1>
                 </div>
             </Container>
