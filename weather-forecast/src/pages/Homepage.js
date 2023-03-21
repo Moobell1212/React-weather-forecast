@@ -1,4 +1,4 @@
 import React from 'react';
 
-import Location from '../components/Currentlocation';
+import CurrentWeather from '../components/Currentweather';
 

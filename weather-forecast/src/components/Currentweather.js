@@ -1,5 +1,5 @@
 import React from "react";
-import Location from "../components/Currentlocation";
+import Location from "./Currentlocation";
 
 export default function CurrentWeather() {
     
