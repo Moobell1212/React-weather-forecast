@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Container from 'react-bootstrap/esm/Container';
 
 import NavigationBar from './components/Navbar';
 import Footer from './components/Footer';
@@ -11,12 +11,10 @@ export default function App() {
   <div>
   <Location />
   <CurrentWeather />
-  <Router>
-    <div>
-      <NavigationBar />
-      <Footer />
-    </div>  
-  </Router>
+  <NavigationBar />
+  <Container>
+  <Footer />
+  </Container>
   </div>
   )
 }
