@@ -4,8 +4,7 @@ export default function Location() {
 
     const [location, setLocation] = useState({});
 
-    const successCallback = (position) => {
-        console.log(position);
+    const locationCallback = position => {
         setLocation(position.coords)
     };
 
@@ -13,9 +12,6 @@ export default function Location() {
     //     console.log(error);
     // };
 
-    navigator.geolocation.getCurrentPosition(successCallback);
+    navigator.geolocation.getCurrentPosition(locationCallback);
     {/*, errorCallback*/} 
-
-    console.log(location)
-
 }
