@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Search() {
     return (
+        <div className="col-lg-3 col-md-6 col-sm-12 p-2 mt-5 border border-dark rounded" >
         <form id="search-form" className="form">
             <div className="form-inline form-group">
                 <div className="input-group">
@@ -16,5 +17,6 @@ export default function Search() {
                 </div>
             </div>
         </form>
+        </div>
     )
 }
